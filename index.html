@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infonext Sistemas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slides.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./images/logoOrion.png" alt="infonext Logo">
+            <h2>Infonext Sistemas de Informática LTDA</h2>
+        </div>
+        <div class="button-options">
+            <button class="btn-home" onclick="mostrarSlide(1)">Início</button>
+            <button class="btn-about" onclick="mostrarSlide(2)">Sobre Nós</button>
+            <button class="btn-services" onclick="mostrarSlide(3)">Serviços</button>
+            <button class="btn-contact" onclick="mostrarSlide(4)">Contato</button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>Bem vindo à Infonext</h1>
+        <p>Soluções Inovadoras de TI para o seu Negócio</p>
+        <button>Saiba Mais</button>
+    </section>
+
+    <section class="sections">
+        <div class="section">
+            <img src="./images/sobrenos.png" alt="sobre nos" class="about">
+            <h3>Sobre Nós</h3>
+            <p>Descubra quem somos e o que fazemos.</p>
+        </div>
+        <div class="section">
+            <img src="./images/horario.png" alt="nossos horarios" class="hours">
+            <h3>Nossos Horários</h3>
+            <p>Agendamento flexível para a sua convivência.</p>
+        </div>
+        <div class="section">
+            <img src="./images/servico.png" alt="servicos" class="services">
+            <h3>Serviços</h3>
+            <p>Serviços de TI de alta qualidade, adaptados às suas necessidades.</p>
+        </div>
+        <div class="section">
+            <img src="./images/contato.png" alt="contato" class="contact">
+            <h3>Contato</h3>
+            <p>Entre em contato conosco para mais informações.</p>
+        </div>
+    </section>
+
+
+    <section class="slider" id="slider">
+            
+            <div class="slider-content">
+
+                <input type="radio" name="btn-radio" id="radio1" checked>
+                <input type="radio" name="btn-radio" id="radio2">
+                <input type="radio" name="btn-radio" id="radio3">
+                <input type="radio" name="btn-radio" id="radio4">
+
+                <div class="slide-box primeiro" style="background-color: lightcoral;">
+                    <h2>Slide 1</h2>
+                </div>
+
+                <div class="slide-box" style="background-color: lightblue;">
+                    <h2>Slide 2</h2>
+                </div>
+                
+                <div class="slide-box" style="background-color: lightpink;">
+                    <h2>Slide 3</h2>
+                </div>
+
+                <div class="slide-box" style="background-color: lightgoldenrodyellow;">
+                    <h2>Slide 4</h2>
+                </div>
+
+
+                <div class="nav-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+
+                <div class="nav-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>                  
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+
+            </div>
+        
+        </section>
+
+    <footer>
+        <p>&copy; 2024 Infonext Sistemas de Informática LTDA. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
