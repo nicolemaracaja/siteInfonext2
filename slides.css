@@ -25,6 +25,7 @@ section.slider{
 .slide-box{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
     height: 80vh;
     position: relative;
@@ -74,4 +75,26 @@ section.slider{
 
 #radio4:checked ~ .primeiro{
     margin-left: -300%;
+}
+
+.member {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin: 10px; 
+}
+
+.image-claudio, .image-alessandro, .image-luis, .image-erick, .image-nicole, .image-aline{
+    width: 150px;
+    height: 180px;
+    border-radius: 30px;
+    object-fit: cover; 
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+h5{
+    font-size: 14px;
+    color: white;
+    margin: 0;
 }
