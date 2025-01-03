@@ -77,6 +77,15 @@ section.slider{
     margin-left: -300%;
 }
 
+.container-member {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center;
+    gap: 20px; 
+    text-align: center; 
+}
+
 .member {
     display: flex;
     flex-direction: column; 
@@ -93,13 +102,46 @@ section.slider{
     transition: transform 0.3s ease-in-out;
 }
 
-h5{
+.member h5{
     font-size: 14px;
     color: white;
     margin: 0;
 }
 
+.btn-container {
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
 .btn-member{
-    justify-content: center;
-        
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #000;
+    background-color: #116798;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.container-social{
+    flex-direction: column;
+}
+
+.social{
+    align-items: center;
+    display: flex;
+    margin: 10px;
+}
+
+.social h4{
+    margin-left: -550px;
+}
+
+.icon-telefone, .icon-email, .icon-linkedin{
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 600px;
 }
